@@ -44,7 +44,8 @@ const std::string& Config::operator[](const std::string& key)
 void Config::defaultParams()
 {
 #define o(k, v) configs[k] = v;
-	o("width", "1280") o("height", "720") o("fullscreen", "false") o("borderless", "false") o("fps", "60")
+	o("width", "1280") o("height", "720") o("fullscreen", "false") o("borderless", "false") o("fps", "60") o("display", "0") o("antialiasing", "1") o("vsync", "false")
+		o("fov", "60")
 #undef o
 }
 

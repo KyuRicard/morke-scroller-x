@@ -12,4 +12,5 @@ public:
 
 	void pollEvents();
 	void swapBuffers();
+
 };
